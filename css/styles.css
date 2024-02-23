@@ -1,0 +1,78 @@
+@import url(variables.css);
+
+.container{
+    background: #ffffff;
+    padding:10px;
+    width: 95%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+}
+
+.container > div{
+    display: flex-box;
+    justify-content: space-between;
+
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em,
+}
+
+nav ul a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+    color:darkgray;
+    
+    
+}
+
+ul{
+    font-size: 1.2rem;
+}
+
+
+.caja{
+    background-color: grey;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+    font-size: 0.9em;
+    
+}
+
+div.caja{
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+div.logo{
+    margin-left: none;
+}
