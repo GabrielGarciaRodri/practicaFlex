@@ -1,0 +1,42 @@
+@import url(variables.css);
+
+.flex-container{
+    background: white;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja{
+    border: 1px solid #ccc;
+    background-color: rgb(216, 208, 208);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content:space-between;
+    margin: 2px;
+}
+
+
+
+a{
+    background: white;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
