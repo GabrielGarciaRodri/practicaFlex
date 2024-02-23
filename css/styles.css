@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: 255,255,255;
+}
+
+.container{
+    background-color: darkgrey;
+    height: 50hv;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6,p{
+    background-color: aquamarine;
+    margin: 5px;
+}
