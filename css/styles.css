@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+body{
+    width: 100%;
+}
+
+.encabezado{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: salmon;
+}
+
+.content{
+    background: salmon;
+    color: #fff;
+    margin: 8px;
+}
+
+.main{
+    background: rgb(27, 188, 155);
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.items{
+    width: 500px;
+    background: rgb(27, 188, 155);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items a{
+    margin: 10px;
+    background: rgb(27, 188, 155);
+    color: #fff;
+    text-decoration: none;
+}
+
+.idiomas{
+    width: 500px;
+    background: rgb(27, 188, 155);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+.idiomas a{
+    margin: 10px;
+    background: rgb(27, 188, 155);
+    color: #fff;
+    text-decoration: none;
+}
+
+aside{
+    width: 30%;
+    float:left;
+}
+
+.lateral{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral img{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.lateral h1, p{
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 12px;
+}
+.contenido{
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.doc{
+    margin-left: 15px;
+    background: #fff;
+    width: 668px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
