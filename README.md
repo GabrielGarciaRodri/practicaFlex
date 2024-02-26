@@ -1,0 +1,1 @@
+![](https://github.com/GabrielGarciaRodri/webProject/blob/ejercicio_6/storage/img6.PNG)
