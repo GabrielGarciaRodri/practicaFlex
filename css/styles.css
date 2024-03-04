@@ -1,0 +1,101 @@
+*{
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.circulo{
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.left{
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuLateral{
+    margin-top: 1px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.dashboard{
+    border: 3px solid black;
+    display: flex;
+    width: 380px;
+    align-items: center;
+    height: 50px;
+}
+
+.cuadro{
+    border: 3px solid black;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.parrafo{
+    border: 3px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+.items h6{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    border-bottom: 3px solid black;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer{
+    border: 3px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
